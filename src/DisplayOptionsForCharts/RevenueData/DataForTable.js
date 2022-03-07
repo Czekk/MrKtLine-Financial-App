@@ -1,0 +1,70 @@
+export const regions =['NorthEast', 'Atlantic', 'South', 'SouthWest', 'Pacific', 'NorthWest', 'MidWest']
+export const sectors= ['Interest', 'ServChrg', 'CapMarkets', 'Mortgage', 'fees', 'Other']
+
+
+export const dataByRegion=
+<>
+    <tr>
+        <td>{regions[0]}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+    </tr>
+    <tr>
+        <td>{regions[1]}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+    </tr>
+    <tr>
+        <td>{regions[2]}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+    </tr>
+    <tr>
+        <td>{regions[3]}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+    </tr>
+    <tr>
+        <td>{regions[4]}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+    </tr>
+    <tr>
+        <td>{regions[5]}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+    </tr>
+    <tr>
+        <td>{regions[6]}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+        <td>{(Math.random()*10).toFixed(2)+'M'}</td>
+    </tr>
+</>

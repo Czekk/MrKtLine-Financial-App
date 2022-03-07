@@ -1,0 +1,64 @@
+.logInWarapper{
+    display: flex;
+    justify-content: center;
+}
+
+.logInCard{
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #f7f7f7;
+    border-radius: 5px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+
+.logInHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    margin: auto;
+}
+
+.logoWarpper{
+    color: darkslategray;
+    background: #fff;
+    text-align: center;
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    font-size: 72px;
+}
+
+@media screen and (max-width: 768px){
+    .logInCard{
+        margin-top: 50px;
+        width: 400px;
+        height: 500px;
+    }
+
+    .logoWarpper{
+        width: 100px;
+        height: 100px;
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .logInCard{
+        margin-top: 50px;
+        width: 300px;
+        height: 400px;
+    }
+
+    .logoWarpper{
+        width: 100px;
+        height: 100px;
+    }
+}
