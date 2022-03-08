@@ -16,12 +16,12 @@ const Profile = () => {
     const [updateFeedback, setUpdateFeedback] = useState('');
     const [isDisabled, setIsDisabled]= useState(0);
     const [formData, setFormData] = useState({
-        firstname: null,
-        lastname: null,
-        position: null,
-        email: null,
-        address: null,
-        phone: null
+        firstname: '',
+        lastname: '',
+        position: '',
+        email: '',
+        address: '',
+        phone: ''
     });
 
     const [formFeedback, setFormFeedback] = useState({
@@ -78,6 +78,13 @@ const Profile = () => {
          else{
              setIsDisabled(0);
              setEdit(false);
+             setFormData({
+                firstname: '',
+                lastname: '',
+                position: '',
+                email: '',
+                address: '',
+                phone: ''})
              setUpdateFeedback('update successful!');
              const response= await UserService.get({username: auth.username});
              if(!response.ok){
