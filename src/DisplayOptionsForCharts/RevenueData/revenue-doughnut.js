@@ -27,7 +27,7 @@ export const options = {
         }
 
 export const data ={
-    "labels": ["Ints\'t", "Serv. Chrg", "Cap. Mark\'ts", "Mortgage", "fees", "Other"],
+    "labels": ["Ints't", "Serv. Chrg", "Cap. Mark'ts", "Mortgage", "fees", "Other"],
     "datasets":[
         {
            "label": "Revenue",
